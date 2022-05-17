@@ -15,26 +15,26 @@
 } 
 
 .cover__overlay:before { 
-  left: 0; 
-  top: 0; 
-  right: 0; 
-  bottom: 0; 
-  content: ""; 
-  background: #2A2C2F; 
-  position: absolute; 
-  opacity: 0.3; 
-  transition: all 1s linear; 
-} 
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  background: #2A2C2F;
+  position: absolute;
+  opacity: 0.3;
+  transition: all 1s linear;
+}
 
-.cover__overlay:hover:before { 
-  background: #2A2C2F; 
-  opacity: 0.8; 
-} 
+.cover__overlay:hover:before {
+  background: #2A2C2F;
+  opacity: 0.8;
+}
 
 @media screen and (max-width: 1024px) {
   .cover__overlay {
     min-height: 620px;
-  }
+    }
 }
 
 @media screen and (max-width: 768px) {
